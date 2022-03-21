@@ -55,10 +55,10 @@ proc roman*(num : int) : string =
     let hundred = int(num.mod(1000) / 100)
     let ten = int(num.mod(100) / 10)
     let one = int(num.mod(10))
+
     var output : string
     output &= toRomanThousandBase(thousand)
     output &= toRomanHandredBase(hundred)
     output &= toRomanTenBase(ten)
     output &= toRomanOneBase(one)
     return output
-    
