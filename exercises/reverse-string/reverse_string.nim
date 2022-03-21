@@ -5,4 +5,3 @@ proc reverse*(input : string) : string =
     for s in input.rsplit(""): output.add(s)
 
     return output
-    
