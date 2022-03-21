@@ -13,7 +13,6 @@ func plang(s: string, n: int): string =
 func plong(s: string, n: int): string =
     if n.mod(7) == 0:
         return fmt"{s}Plong"
-
     if s == "": fmt"{n}"
     else: s
 
