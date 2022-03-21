@@ -6,4 +6,3 @@ const
 
 proc addGigasecond*(moment : DateTime) : DateTime = 
     return moment + dur
-    
