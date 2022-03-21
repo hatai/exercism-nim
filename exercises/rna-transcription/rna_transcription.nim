@@ -7,6 +7,4 @@ proc toRna*(input : string) : string =
     var output: string
     for c in input:
         output.add(t[c])
-
     return output
-    
