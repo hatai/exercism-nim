@@ -9,4 +9,3 @@ func countDna*(dna: string): CountTable[char] =
             raise newException(ValueError, "strand with invalid nucleotides")
 
     dna.toCountTable
-    
